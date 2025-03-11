@@ -1,0 +1,40 @@
+# What is Data Science? (YouTube Video Summary)
+ 
+**Definition of Data Science:**
+
+* Data science is about using data to create as much impact as possible for a company [[00:07](https://youtu.be/xC-c7E5PK0Y?si=ze6X0U0bNlmhcmnd&t=7)].
+* This impact can be in the form of insights, data products, or product recommendations [[00:14](https://youtu.be/xC-c7E5PK0Y?si=ze6X0U0bNlmhcmnd&t=14)].
+
+**Tools of Data Science:**
+
+* Data scientists use tools like making complicated models, data visualizations, or writing code to solve real company problems using data [[00:20](https://youtu.be/xC-c7E5PK0Y?si=ze6X0U0bNlmhcmnd&t=20)].
+
+**Historical Context:**
+
+* The term "data mining" was popularized in 1996, referring to discovering useful information from data [[01:20](https://youtu.be/xC-c7E5PK0Y?si=ze6X0U0bNlmhcmnd&t=80)].
+* In 2001, William S. Cleveland combined computer science with data mining, making statistics more technical and expanding the possibilities of data mining [[01:37](https://youtu.be/xC-c7E5PK0Y?si=ze6X0U0bNlmhcmnd&t=97)].
+* The emergence of Web 2.0 led to massive amounts of user-generated data, known as "big data" [[01:51](https://youtu.be/xC-c7E5PK0Y?si=ze6X0U0bNlmhcmnd&t=111)].
+* The rise of big data in 2010 sparked the rise of data science to draw insights from massive unstructured datasets [[02:50](https://youtu.be/xC-c7E5PK0Y?si=ze6X0U0bNlmhcmnd&t=170)].
+* Machine learning became feasible with the abundance of data, influencing everyday life [[03:20](https://youtu.be/xC-c7E5PK0Y?si=ze6X0U0bNlmhcmnd&t=200)].
+
+**Misconceptions:**
+
+* The general public often equates data science with machine learning and AI, but the industry hires data scientists more as analysts [[04:08](https://youtu.be/xC-c7E5PK0Y?si=ze6X0U0bNlmhcmnd&t=248)].
+
+**Hierarchy of Needs in Data Science:**
+
+* **Collect:** Data collection, storage, and transformation are essential [[05:32](https://youtu.be/xC-c7E5PK0Y?si=ze6X0U0bNlmhcmnd&t=332)].
+* **Analytics:** Determining insights from data about users [[06:17](https://youtu.be/xC-c7E5PK0Y?si=ze6X0U0bNlmhcmnd&t=377)].
+* **Metrics:** Measuring product success [[06:23](https://youtu.be/xC-c7E5PK0Y?si=ze6X0U0bNlmhcmnd&t=383)].
+* **A/B Testing:** Experimentation to find the best product versions [[06:30](https://youtu.be/xC-c7E5PK0Y?si=ze6X0U0bNlmhcmnd&t=390)].
+* **AI/Deep Learning:** While popular in media, it's not always the highest priority for companies [[06:43](https://youtu.be/xC-c7E5PK0Y?si=ze6X0U0bNlmhcmnd&t=403)].
+
+**Data Science Roles by Company Size:**
+
+* **Startups:** One data scientist handles everything, from data infrastructure to analytics and A/B testing [[07:19](https://youtu.be/xC-c7E5PK0Y?si=ze6X0U0bNlmhcmnd&t=439)].
+* **Medium-sized Companies:** Separate data engineers and data scientists; data scientists may focus on more technical aspects like recommendation models and AI [[07:53](https://youtu.be/xC-c7E5PK0Y?si=ze6X0U0bNlmhcmnd&t=473)].
+* **Large Companies:** Specialized roles, such as data science analytics and research scientists, allowing employees to focus on their strengths [[08:35](https://youtu.be/xC-c7E5PK0Y?si=ze6X0U0bNlmhcmnd&t=515)].
+
+**Key Takeaway:**
+
+* Data science can encompass a wide range of responsibilities, and its definition varies depending on the company [[09:47](https://youtu.be/xC-c7E5PK0Y?si=ze6X0U0bNlmhcmnd&t=587)].
