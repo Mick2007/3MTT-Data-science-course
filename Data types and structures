@@ -1,0 +1,105 @@
+Data types and structures
+In the previous section, we mentioned variables can be used to store strings,integers etc.... but what exactly are they?
+
+Python_data_structures.png
+
+In the image above, you would see "python data structures" is divided into two:
+
+Primitive: these are the most basic building blocks of data in python. They represent single values of a specific data type (remebered we said that variables can be used to store integers, booleans, strings and float). In other words primitve python data structures are also known as Data types.
+
+Non-Primitive Non-primitive data structures, also known as composite data types, are more complex and can store multiple values. They are built using primitive data types and provide ways to organize and manage data efficiently. Itg is further divided into two:
+
+Built-in
+User defined
+For the sake of the foundational level, we'll focus on built in data structures.
+
+Primitive data structures
+1. Strings (text data)
+A string in Python is a sequence of characters enclosed within quotes. It can represent anything from a single letter to an entire sentence.
+
+2. Integers (Whole Numbers)
+An integer represents whole numbers, both positive and negative, without a decimal point (e.g., 10, -5, 0) We just performed an operation in the print statement using the minus mathematical operator. More on operators later.
+
+3. Floats (Decimal Numbers)
+A float is a number that contains a decimal point. Floats are often used to represent precise measurements.
+
+4. Booleans (True/False Values)
+A boolean represents one of two values: True or False. This data type is used for logical operations.
+
+Built in non-primitive data structures
+Before we delve into the types of non-primitive data structures, first note that for each of the following data structures, that they are specific methods and attributes that work with them that allows us to retrieve information or manipulate them.
+
+What are attributes and methods? Imagine a data structure as a box.
+
+Box.jpg
+
+Attributes are like the labels on the box. They describe what's inside. For example, the box above might have labels like "color," "size," and "material." In Python, a list might have attributes like "length" (how many items are in it) or "type" (whether it's a list of numbers, strings, or something else).
+
+Methods are like the tools you can use on the box. They let you do things with the contents. You could have a method to "open the box," "sort the contents by color," or "count the contents." In Python, a list might have methods like "append" (to add a new item), "remove" (to take an item out), or "sort" (to arrange the items in order).
+
+One of the easiest ways to differentiate between an attribute and a method is in how they are used in a code.
+
+Attributes come in the form function(variable_name) -- e.g: type(fruits)
+
+The type attribute is focused on trying to find out what kind of data structure the fruits box is.
+
+While....
+
+Methods come in the form variable_name.function() -- e.g: fruits.append('apple')
+
+This adds a new content, apple to the fruits list.
+
+Now we know this, we can now study the data structures for more context.
+
+1. Lists (Ordered Collections)
+A list is an ordered collection of items that can be modified. Lists are useful when you need to store different data types. Lists are enclosed in square brackets []. Let's do something interesting!!
+
+Imagine a grid of numbers:
+
+|Numbers| | | |---|---|---| | 1 | 2 | 3 | | 4 | 5 | 6 | | 7 | 8 | 9 |
+
+If you want to point to the number 9, you'd say, "Go to the 3rd row, 3rd column."
+
+In programming terms, we'd express this as: Row: 2 (since we start counting from 0)
+
+Column: 2
+
+So, to access the number 9 in a program, we'd use something like grid[2][2].
+
+This is called Indexing.
+
+Indexing is a fundamental operation in programming that allows you to access specific elements within a data structure. The 8th element of the sea_animals list is another list. The code above therefore points to the second value in the internal list in the 7th position of the main list itself.
+
+2. Tuple (Immutable Collections)
+An ordered collection of items, enclosed in parentheses (). Similar to lists, but they are immutable, meaning their elements cannot be changed after creation. This returns a TypeError showing that the values are immutable and cannot be changed once they have been created.
+
+3. Sets
+An unordered collection of unique items, enclosed in curly braces or created using the set() function. Sets do not allow duplicates.
+
+4. Dictionary
+An unordered collection of key-value pairs, enclosed in curly braces . Each key is unique and associated with a corresponding value.
+
+The key refers to the value before the colon and the key represents the value after the colon.
+
+Summary
+Lists:
+
+Mutable
+Dynamic as they can increase or be decreased in size
+Ordered collection of items which means it can be indexed and sliced
+Tuples:
+
+Similar to lists
+Immutable
+Allows slicing and indexing
+Dictionary:
+
+Keys are immutable and unique, values are mutable
+Unordered collection of items which means they cannot be indexed
+Sets:
+
+No duplicates are allowed
+Unordered collection of items which means they do not allow indexing or slicing
+They are mutable
+Task
+A a program to manage tasks, or a to-do list
