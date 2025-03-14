@@ -1,0 +1,155 @@
+Introduction to Python
+Python is a versatile and beginner-friendly programming language, created by Guido van Rossum👇 in the late 1980s.
+
+Guido_van_Rossum.jpg
+
+The name "Python" is a tribute to the British comedy group Monty Python, reflecting its emphasis on readability and simplicity.
+
+Since its inception, Python has gained immense popularity due to its broad applicability.
+
+Applications of python
+
+From the image, we see that Python can be used in various domains, including:
+
+Web Development: Frameworks like Django and Flask streamline the creation of dynamic web applications.
+Data Science and Machine Learning: Libraries like NumPy, Pandas, and Scikit-learn provide powerful tools for data analysis and model building.
+Scientific Computing: used in fields like physics, chemistry, and engineering for numerical simulations and data visualization.
+Automation: Python scripts can automate repetitive tasks, saving time and effort.
+Game Development: Libraries like Pygame enable the creation of engaging games.
+Python's active and supportive community contributes to its continued growth and innovation.
+
+Now, we have an overview of what python is, next, we would consider the building blocks of the python programming language. They are referred to as the building blocks because it is the foundation on which the language can function properly.
+
+Anaconda and Google Colab
+To run your python codes, you need environments that support your agenda. Some of the environments we would be using include the Anaconda distribution for your local device and Google Colab, a virtual machine.
+
+Anaconda
+Anaconda is a distribution of the Python for scientific computing, that aims to simplify package management and deployment. The distribution includes data-science packages suitable for Windows, Linux, and macOS. You can install and download Anaconda Distribution via https://www.anaconda.com/products/individual#windows for Windows and https://www.anaconda.com/download/success for MacOS.
+
+After download, an Anaconda Navigator is installed on your local device. Anaconda Navigator is a desktop graphical user interface (GUI) included in Anaconda distribution that allows users to launch applications without using command-line commands. It looks something like this👇
+
+Anaconda navigator
+
+You can launch Anaconda Navigator by typing Anaconda Navigator on the search bar, then double click on the Anaconda Navigator (Anconda3) in Windows or by looking for "Anaconda-Navigator" among your MacOS apps after installation.
+
+Launch navigator
+
+Among the applications present in the Anaconda are JupyterLab and Notebook. Both can be used for data science and analytics tasks. What makes them different though?
+
+Anaconda_distribution
+
+Jupyter Notebook is best for straightforward data exploration and individual notebook workflows.
+JupyterLab is ideal for more complex workflows, multitasking, and team collaboration, offering a richer, more extensible, IDE-like experience.
+For this course, we would use the Jupyter notebook.
+
+Google Colab
+Google Colab
+
+Google Colab or Colab for short allows anybody to write and execute Python code through the browser free of charge. It is a specialized version of the Jupyter Notebook, which runs on the cloud and offers free but limited computing resources.
+
+It requires no setup to use while providing free access to computing resources including GPUs. You can also collaborate with others or share your completed work with other developers. You can access Colab via https://colab.research.google.com
+
+A. Python variables
+If you grew up in a traditional home, you would know ice-cream containers weren’t just used for ice cream. Often, you’d open the freezer expecting to find some delicious vanilla or chocolate ice cream, only to discover... stew, beans, or soup!
+
+The same way that those containers stored different things (ice cream, soup, etc.), variables in Python are like containers that store data.
+
+You can give a variable a name, and inside it, you can store a piece of data like a number, text, or even more complex things like lists.
+
+The variable is simply a way to label and hold something so you can refer to it later.
+
+In Python, it stores information (data) that you might want to use or manipulate later in your code. For example, you might want to store your age, a name, or the price of a product.
+
+Key things to remember:
+
+A variable can hold different data types (numbers, text, etc.).
+
+You can change what's inside the variable just like how, the ice-cream container can be reused for stew or soup.
+
+Variables help make your code easier to read and manage by letting you refer to data with names you choose.
+
+How to Create a Variable?
+In Python, creating (or defining) a variable is super simple! You just choose a name for your variable and use the = symbol to assign a value to it. P.S. "#" is used to denote comments in python codes, that is, it serves as a flag that tells python to overlook and not run that line of code.
+
+Rules for Naming Variables
+Just like how we label our ice-cream containers with something meaningful like "ice cream" or "soup," variable names in Python should be clear and descriptive. But there are some rules:
+
+Start with a letter or underscore (_). You can’t start with a number.
+
+Valid: name, _age
+Invalid: 1name, @score
+Only use letters, numbers, and underscores (_). No spaces or symbols like !, #, or @.
+
+Valid: total_amount, student_name_2
+Invalid: total-amount, !student name
+Avoid Python keywords like "for", "if", and "else". These have special meanings in Python.
+
+Case-sensitive: Python treats uppercase and lowercase letters as different. So, Name and name are two different variables. The code returns an error when run - a NameError. Let's adjust the code and run.
+
+P.S The print statement is used to display output in the console. It allows you to see the result of your code We have the results as expected🤗.
+
+Keep names descriptive: It’s a good practice to name your variables something meaningful. Instead of x, y, or a, use names like student_name, total_price, or is_sunny.
+Variable data types
+Variables can be used to store different Data - Types.
+
+Numbers
+Variables can store numbers like integers (whole numbers) or floats (decimals). 2. Strings
+
+In python, we use single quotation marks ('') or double quotation marks ("") to denote text. We end up with a NameError which provides more information saying that Vanilla is not defined. Asides numbers and booleans, you must enclose text or sentences in quotation marks for python to understand what you're trying to say. favorite_flavor is a variable that holds the text "Vanilla".
+
+Boolean is_icecream_available stores a boolean value, indicating that ice-cream is available.
+Reusing Variables: Changing What’s in the Container
+Remember how the ice-cream container sometimes had your favourite soup instead of ice cream? In the same way, we can change the value stored in a variable. The variable quantity first holds 5, but then we change it to 10. When we print it out, it shows 10.
+
+Benefits of Using Variables in Python
+1. Store Data
+
+Instead of repeating values throughout your code, you can store them in a variable.
+
+Example: If the price of ice cream is 3.99, you don’t want to write 3.99 in multiple places. Just use price_of_icecream.
+
+2. Makes Your Code Clear
+
+By using meaningful variable names, your code becomes easier to understand.
+
+Example: total_cost is easier to understand than just writing numbers.
+
+3. Change Data Easily
+
+If the data changes (like the price of an item), you only have to update it in one place if it's stored in a variable.
+
+Example: sale_price = #300 and gets updated to #540, you only have to change this in your variable and not for every instance sale_price was used in your code.
+
+Practical Example: Using Variables to Calculate a Total Price
+Let’s imagine you run a small ice-cream shop, and you want to calculate the total cost of a few items a customer buys.
+
+Ice_cream_shop.jpg You created variables for the unit prices of vanilla ice cream, chocolate ice cream, and cones. You also created variables to store how many of each item the customer is buying. Finally, you used the variables to calculate the total cost by first multiplying the cost of just a single ice cream flavor and the total quantity bought by your new customer, before addition.
+
+Tada!! The total cost is 10.25.
+
+Did you notice the "The total cost is:" part of the print statement? This is known as print formatting
+
+Print formatting
+As we know, if you want to see the output of your code in Python, you have to speak to python in a language that it understands in this case, using the keyword: "print" (more on python keywords later).
+
+Print formatting refers to the techniques used to format and present this output in a clear and structured way. There are several methods for achieving print formatting, including
+
+String concatenation
+The % operator
+.format()
+f-strings (formatted string literals).
+a) String Concatenation:
+This method uses the + operator to join strings together.
+
+b) % Operator:
+This classic method allows you to format strings with the % operator. Commonly Used Icons/Placeholders:
+
+%s is used to represent strings
+%d is used to represent integers
+%f is used to represent floats
+%r is used to represent debugging representation
+c) .format() Method:
+This versatile method uses curly braces as placeholders.
+
+d) f-strings (Formatted String Literals):
+This modern method allows for inline expressions within curly braces. Understanding and leveraging these print formatting methods will enable you to present information in a more organized and engaging manner. By choosing the method that best fits your style, you can make your python programs and outputs not only functional but also appealing to the audience.
